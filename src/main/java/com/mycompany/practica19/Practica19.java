@@ -17,7 +17,7 @@ public class Practica19 {
 
     public static void main(String[] args) {
         System.out.println("Start program!");
-        System.out.println("Practical task №1_10. Variant 5. Student Tolsbrova A.V. Group RIBO-01-22");
+        System.out.println("Practical task №2_2 Student Tolsbrova A.V. Group RIBO-01-22");
        /* String server="https://www.mirea.ru/";
         HHTTPRunnable hTTPRunnable=new HHTTPRunnable(server,null);
 */
