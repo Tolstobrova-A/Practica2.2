@@ -34,6 +34,7 @@ public class Practica19 {
         }catch(InterruptedException ex){
             
         }finally{
+            try{
             JSONObject jSONObject=new JSONObject(hTTPRunnable.getResponseBody());
             int result=jSONObject.getInt("result_code");
             System.out.println("Result: "+ result);
@@ -52,7 +53,11 @@ public class Practica19 {
                 default:
                     break;
             }
+            }catch(JSONException e){
+                    System.out.println("Ошибка!"+e.getMessage());
+            }
         
         }
-    }
-}  
+        
+        }
+    }  
